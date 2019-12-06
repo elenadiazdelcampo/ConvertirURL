@@ -1,0 +1,4 @@
+El proyecto esta dividido en carpeta raiz y distribucion
+Dentro de distribucion tenemos todos los archivos necesarios para lanzar los servidores separados en diferentes nodos, cada nodo con su configuracion. Para ejecutarlo es necesario ejecutar ./Proyect.sh con lo que crearemos los directorios y copiaremos los archivos a una carpeta temporal donde ejecutaremos el icepatch2. Despues ejecutamos make start-grid para lanzar todos los nodos de golpe.
+
+En el directorio raiz nos encontramos downloader.ice que es compartida por el cliente y el servidor. El cliente tiene los archivos cliente.py y locator.config necesarios para su configuracion y el resto de archivos forman parte del servidor, salvo Youtube.xml que es el archivo que muestra graficamente los nodos y si estan activos o no.
